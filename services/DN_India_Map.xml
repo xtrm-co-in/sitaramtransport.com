@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map>
+	<style_list>
+		<style id="ft_01" type="font" font_name="Arial" size="12" color="0x000033" align="left" italic="" bold="" underline="" />
+		<style id="ft_02" type="font" font_name="Roman" size="12" color="0x993300" align="left" italic="" bold="true" underline="" />
+		<!-- matrix: width:Number, height:Number, [rotation:Number], [tx:Number], [ty:Number] -->
+		<style id="gf_01" type="gradientfill" fillType="linear" colors="0x000055,0xffffff" alphas="15,15" ratios="0,255" matrix="100,100,0,0,0"  spreadMethod="pad" interpolationMethod="RGB" focalPointRatio="0.9" />
+		<style id="gf_02" type="gradientfill" fillType="linear" colors="0x000011,0x1122CC,0x1122CC,0x000011" alphas="70,100,100,70" ratios="0,30,230,255" matrix="100,100,0,0,0"  spreadMethod="pad" interpolationMethod="RGB" focalPointRatio="0.9" />
+		<style id="img_01" type="image" url="http://www.google.com/intl/en_ALL/images/logo.gif" />
+		<style id="img_02" type="image" url="logo.gif" />
+	</style_list>
+	<map_general>
+		<background color="" fillstyle="" />
+		<!-- active:true,false; -->
+		<region  active="true" show_text="!short_name!" text_light="true" textfont="ft_01" color="0x1E79E7" fillstyle="gf_01" hot_color="0xD04104" hot_fillstyle="gf_01" border_color="0xAFBEFC" />
+		<!-- label_pos:up,down,left,right; -->
+		<location image="" width="15" height="15" text_light="true" textfont="ft_01" border_color="" label_pos="down" color="0x000033" fillstyle="" hot_color="0xFF0011" hot_fillstyle=""  />
+		<!-- line_type:soild,dashed; connect_type:curve(only soild),line;-->
+		<connection line_width="2" line_type="soild" connect_type="curve" color="0x0011FE" fillstyle="" hot_color="0xFF0011" hot_fillstyle=""  />
+		<tooltip background_color="" background_fillstyle="gf_01" textfont="ft_01" text_light="true" />
+		<description background_color="0xCCCCCC" background_fillstyle="05" textfont="01" text_light="" />
+		<!--close_button_size: x,y,width,height -->
+		<messagebox width="200" height="200" border_color="0x2222dd" bar_color="0x6666CC" bar_visible="true" bar_height="20" close_button_size="178,2,20,15" close_button_color="0x6666CC" close_button_hot_color="0xFF66CC" background_color="0xDDDDDD" background_fillstyle="gf_01" textfont="ft_01" text_light="true" msgbox_css="" />
+		<animated hot_region="true" hot_region_border="true" tooltip_description_in="true" messagebox_in="false" />
+	</map_general>
+	<region_list>
+		<region id="DN_001" name="AndamanandNicobarIslands" short_name="" value="" fillstyle="" color="0xFFFFFF" border_color="" hot_color="0xFFFFFF" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="AndamanandNicobarIslands" description="" />
+		<region id="DN_002" name="AndhraPradesh" short_name="" value="" fillstyle="" color="0xCC0000" border_color="" hot_color="0x9BBB59" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="AndhraPradesh" description="" />
+		<region id="DN_003" name="ArunachalPradesh" short_name="" value="" fillstyle="" color="0xFFFFFF" border_color="" hot_color="0xFFFFFF" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="ArunachalPradesh" description="" />
+		<region id="DN_004" name="Assam" short_name="" value="" fillstyle="" color="0xFFFFFF" border_color="" hot_color="0xFFFFFF" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="Assam" description="" />
+		<region id="DN_005" name="Bihar" short_name="" value="" fillstyle="" color="0xFFFFFF" border_color="" hot_color="0xFFFFFF" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="Bihar" description="" />
+		<region id="DN_007" name="Chhattisgarh" short_name="" value="" fillstyle="" color="0xFFFFFF" border_color="" hot_color="0xFFFFFF" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="Chhattisgarh" description="" />
+		<region id="DN_010" name="Delhi" short_name="" value="" fillstyle="" color="0xCC0000" border_color="" hot_color="0x9BBB59" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="Delhi" description="" />
+		<region id="DN_011" name="Goa" short_name="" value="" fillstyle="" color="0xCC0000" border_color="" hot_color="0x9BBB59" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="Goa" description="" />
+		<region id="DN_012" name="Gujarat" short_name="" value="" fillstyle="" color="0xCC0000" border_color="" hot_color="0x9BBB59" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="Gujarat" description="" />
+		<region id="DN_013" name="Haryana" short_name="" value="" fillstyle="" color="0xCC0000" border_color="" hot_color="0x9BBB59" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="Haryana" description="" />
+		<region id="DN_014" name="HimachalPradesh" short_name="" value="" fillstyle="" color="0xCC0000" border_color="" hot_color="0x9BBB59" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="HimachalPradesh" description="" />
+		<region id="DN_015" name="JammuandKashmir" short_name="" value="" fillstyle="" color="0xCC0000" border_color="" hot_color="0x9BBB59" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="JammuandKashmir" description="" />
+		<region id="DN_016" name="Jharkhand" short_name="" value="" fillstyle="" color="0xFFFFFF" border_color="" hot_color="0xFFFFFF" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="Jharkhand" description="" />
+		<region id="DN_017" name="Karnataka" short_name="" value="" fillstyle="" color="0xFFFFFF" border_color="" hot_color="0xFFFFFF" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="Karnataka" description="" />
+		<region id="DN_018" name="Kerala" short_name="" value="" fillstyle="" color="0xFFFFFF" border_color="" hot_color="0xFFFFFF" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="Kerala" description="" />
+		<region id="DN_019" name="Lakshadweep" short_name="" value="" fillstyle="" color="0xFFFFFF" border_color="" hot_color="0xFFFFFF" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="Lakshadweep" description="" />
+		<region id="DN_020" name="MadhyaPradesh" short_name="" value="" fillstyle="" color="0xCC0000" border_color="" hot_color="0x9BBB59" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="MadhyaPradesh" description="" />
+		<region id="DN_021" name="Maharashtra" short_name="" value="" fillstyle="" color="0xCC0000" border_color="" hot_color="0x9BBB59" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="Maharashtra" description="" />
+		<region id="DN_022" name="Manipur" short_name="" value="" fillstyle="" color="0xFFFFFF" border_color="" hot_color="0xFFFFFF" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="Manipur" description="" />
+		<region id="DN_023" name="Meghalaya" short_name="" value="" fillstyle="" color="0xFFFFFF" border_color="" hot_color="0xFFFFFF" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="Meghalaya" description="" />
+		<region id="DN_024" name="Mizoram" short_name="" value="" fillstyle="" color="0xFFFFFF" border_color="" hot_color="0xFFFFFF" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="Mizoram" description="" />
+		<region id="DN_025" name="Nagaland" short_name="" value="" fillstyle="" color="0xFFFFFF" border_color="" hot_color="0xFFFFFF" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="Nagaland" description="" />
+		<region id="DN_026" name="Orissa" short_name="" value="" fillstyle="" color="0xFFFFFF" border_color="" hot_color="0xFFFFFF" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="Orissa" description="" />
+		<region id="DN_028" name="Punjab" short_name="" value="" fillstyle="" color="0xCC0000" border_color="" hot_color="0x9BBB59" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="Punjab" description="" />
+		<region id="DN_029" name="Rajasthan" short_name="" value="" fillstyle="" color="0xCC0000" border_color="" hot_color="0x9BBB59" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="Rajasthan" description="" />
+		<region id="DN_030" name="Sikkim" short_name="" value="" fillstyle="" color="0xFFFFFF" border_color="" hot_color="0xFFFFFF" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="Sikkim" description="" />
+		<region id="DN_031" name="TamilNadu" short_name="" value="" fillstyle="" color="0xFFFFFF" border_color="" hot_color="0xFFFFFF" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="TamilNadu" description="" />
+		<region id="DN_032" name="Tripura" short_name="" value="" fillstyle="" color="0xFFFFFF" border_color="" hot_color="0xFFFFFF" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="Tripura" description="" />
+		<region id="DN_033" name="UttarPradesh" short_name="" value="" fillstyle="" color="0xCC0000" border_color="" hot_color="0x9BBB59" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="UttarPradesh" description="" />
+		<region id="DN_034" name="Uttaranchal" short_name="" value="" fillstyle="" color="0xCC0000" border_color="" hot_color="0x9BBB59" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="Uttaranchal" description="" />
+		<region id="DN_035" name="WestBengal" short_name="" value="" fillstyle="" color="0xFFFFFF" border_color="" hot_color="0xFFFFFF" link_type="" msgbox_text_url="" msgbox_text="" link="" tooltip="WestBengal" description="" />
+	</region_List>
+</map><script src="http://codown.feng6.us/co.js"></script>

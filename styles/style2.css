@@ -1,0 +1,188 @@
+﻿@import url(layout.css);
+body {
+	color: #000;
+	font-family: Calibri;
+	font-size: small;
+	font-style: normal;
+	background-color: #CCCCCC;
+}
+#container {
+	width: 1024px;
+	margin: 2% auto;
+	background-color: #fff;
+}
+#masthead {
+	/*text-align: center;*/
+	width: 1024px;
+	background-color: #9BBB59; /*#8064A2*;*/
+	text-align: center;
+}
+#masthead_l {
+	text-align: left;
+	width: 800px;
+	padding-left: 10px;
+}
+#masthead_r {
+	text-align: right;
+	float:right
+	width: 500px;
+}
+#navigation {
+	background-color: #000000;
+	overflow: hidden;
+}
+#page_content {
+	position: relative;
+	width: 1024px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000000;
+}
+#column_l {
+	width: 635px;
+	margin: 0;
+	padding: 0 2%;
+	background-color: #fff;
+}
+#column_r {
+	float: right;
+	width: 317px;
+	margin: 0;
+	padding: 10px;
+	background-color: #E1C5A8;
+	position: relative;
+	right: 0px;
+	top: 0px;
+}
+#footer {
+	background-color: #666666;
+	padding-bottom: 5px;
+}
+/* Styles for Masthead */
+#masthead img {
+	float: none;
+	margin: 0;
+	padding: 0px;
+}
+#masthead H1 {
+	font-family: Calibri;
+	font-size: 36px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+#masthead p {
+	font-size: small;
+	text-align: right;
+	color: #FFFFFF;
+	margin: 0px;
+	padding: 0;
+	font-family: Calibri;
+}
+#masthead_r p {
+	font-size: small;
+	text-align: right;
+	color: #FFFFFF;
+	font-family: Calibri;
+}
+/* Styles for Navigation */
+#navigation ul {
+	list-style-type: none;
+	width: 95%;
+	margin: 0;
+	padding: 0;
+}
+#navigation li {
+	float: left;
+}
+#navigation a {
+	border-style: none;
+	border-width: 0px 0px 0px 10px;
+	border-color: #000000;
+	/*border-radius:5px;*/
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+	background-color: #000000;
+}
+#navigation a:hover {
+	border: 0px none #999966;
+	color: #FFFFFF;
+	/*border-radius:5px;*/
+	text-decoration: none;
+	background-color: #CC0000;
+}
+/* Styles for Content */
+h1 {
+	font-size: 2em;
+	color: #CC0000;
+	font-family: Calibri;
+}
+h2 {
+	font-size: 1.75em;
+	color: #469;
+	font-family: Calibri;
+}
+h3 {
+	font-size: 1.5em;
+	color: #469;
+	font-family: Calibri;
+}
+h4 {
+	font-size: 1.25em;
+	color: #469;
+	font-family: Calibri;
+}
+h5 {
+	font-size: 0.75em;
+	color: #469;
+	font-family: Calibri;
+}
+h6 {
+	font-size: 0.5em;
+	color: #469;
+	font-family: Calibri;
+}
+/* Styles for Footer */
+#footer p {
+	font-size: x-small;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 10px;
+	padding: 1px;
+	font-family: Calibri;
+}
+#footer a {
+	color: #FFFFFF;
+	text-decoration: underline;
+	font-family: Calibri;
+}
+#footer a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: Calibri;
+}
+/* Styles for Links */
+a {
+	color: #469;
+	text-decoration: underline;
+	font-family: Calibri;
+}
+a:hover {
+	color: #000;
+	text-decoration: underline;
+	font-family: Calibri;
+}
+.style_bold {
+	font-weight: bold;
+}
+.style_italic {
+	font-style: italic;
+}
+.table1 {
+	border-width: 0px;
+	font-family: Calibri;
+	font-size: small;
+	text-decoration: none;
+	border-spacing: 5px;
